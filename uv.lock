@@ -1,0 +1,20 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "hue-shutdown"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "phue" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "phue", specifier = ">=1.1" }]
+
+[[package]]
+name = "phue"
+version = "1.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/bd/b9/456c439ded199e67a2630c798e9974e517a11c7628918ceee7a19343c762/phue-1.1.tar.gz", hash = "sha256:61facc991a2ead1d727df8513d06ce089033489b6dca09be093db24f7cdb8874", size = 10130, upload-time = "2019-01-27T23:06:30.762Z" }

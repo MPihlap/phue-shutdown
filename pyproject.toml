@@ -1,0 +1,9 @@
+[project]
+name = "hue-shutdown"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "phue>=1.1",
+]
